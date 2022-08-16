@@ -10,18 +10,12 @@ if (num < 100)
 {
     Console.WriteLine("Третьей цифры нет.");
 }
-
 else
 {
     int div = 10;
     while (( num / div ) >= 99 )
     {
-    
-
-     num = num / div;
-
-   
-    
+     num = num / div;    
     }
    Console.Write( num % div ); 
 }
